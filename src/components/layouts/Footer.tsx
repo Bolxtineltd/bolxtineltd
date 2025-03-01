@@ -43,11 +43,11 @@ const Footer = () => {
         </p>
         <ul className="flex items-center gap-4 lg:text-base text-sm font-normal leading-[30px] text-dark-100">
           <li>
-            <Link href={"/#"}>Terms of Service</Link>
+            <Link href={"/terms-of-services"}>Terms of Service</Link>
           </li>
           <li className="bg-dark-100 size-1"></li>
           <li>
-            <Link href={"#"}>Privacy Policy</Link>
+            <Link href={"/privacy-policy"}>Privacy Policy</Link>
           </li>
         </ul>
       </section>
