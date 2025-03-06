@@ -30,14 +30,14 @@ export function NavBar() {
       <nav className="wrapper flex h-16 items-center justify-between mx-auto">
         <Link href={"/"}>
           <Image
-            src={"/assets/logo.svg"}
+            src={"/assets/logo-new.png"}
             alt={"logo"}
             width={160}
             height={28}
             className="lg:block hidden"
           />
           <Image
-            src={"/assets/logo.svg"}
+            src={"/assets/logo-new.png"}
             alt={"logo"}
             width={120}
             height={28}
@@ -142,14 +142,14 @@ const routes = [
   },
   {
     name: "Our Services",
-    path: "/services",
+    path: "/services/",
   },
   {
     name: "Our Products",
-    path: "/products",
+    path: "/products/",
   },
   {
     name: "About us",
-    path: "/aboutus",
+    path: "/aboutus/",
   },
 ];

@@ -4,7 +4,8 @@ import { Slide, Zoom } from "react-awesome-reveal";
 
 const Banner = ({ title, content, className }: BannerProps) => {
   return (
-    <header className="bg-banner lg:h-[489px] h-[400px] flex justify-center items-center bg-center bg-cover border-b-4 border-secondary">
+    <header className="bg-banner lg:h-[489px] h-[400px] flex justify-center items-center bg-center bg-cover border-b-4 border-secondary relative">
+      <div className="bg-black/90 absolute inset-0"></div>
       <div
         className={cn(
           "max-w-[482px] w-full mx-auto text-center text-white space-y-3",

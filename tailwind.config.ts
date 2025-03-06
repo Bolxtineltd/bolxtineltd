@@ -14,20 +14,23 @@ export default {
           DEFAULT: "#004AADF2",
         },
         secondary: {
-          DEFAULT: "#DA6708",
+          DEFAULT: "#DB680C",
+          100: "#fb8b24",
         },
         dark: {
           DEFAULT: "#01060E",
           100: "#BFC1C3",
           500: "#41444A",
+          600: "#36454f",
+          700: "#faf0e6",
         },
       },
       backgroundImage: {
-        "home-showcase": "url('/assets/home-showcase.svg')",
+        "home-showcase": "url('/assets/showcase.png')",
         "our-services": "url('/assets/our-services.svg')",
         testimonial: "url('/assets/testimonial.svg')",
-        footer: "url('/assets/footer.svg')",
-        banner: "url('/assets/banner2.svg')",
+        footer: "url('/assets/footer-new.png')",
+        banner: "url('/assets/banner-new.png')",
         empowerment: "url('/assets/empowerment.svg')",
       },
       fontFamily: {

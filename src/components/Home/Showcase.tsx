@@ -5,7 +5,8 @@ import { Fade } from "react-awesome-reveal";
 
 const Showcase = () => {
   return (
-    <section className="bg-home-showcase bg-center bg-cover">
+    <section className="bg-home-showcase bg-center bg-cover relative">
+      <div className="bg-black/80 absolute inset-0"></div>
       <div className="wrapper flex lg:gap-6 gap-3 lg:py-20 py-16 justify-between lg:flex-row flex-col items-center">
         <div className="">
           <Fade direction="top-left">
