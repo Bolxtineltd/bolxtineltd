@@ -28,9 +28,9 @@ const OurProducts = () => {
               Coming soon...
             </Link>
           </div>
-          <div className="bg-[#F5F5FA]">
+          <div className="bg-[#F5F5FA] overflow-hidden">
             <Image
-              src={"/assets/skirral-app.svg"}
+              src={"/assets/skirral-app.png"}
               width={594}
               height={378}
               alt="skirral-app"

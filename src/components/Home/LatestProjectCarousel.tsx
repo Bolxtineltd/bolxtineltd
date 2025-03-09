@@ -43,7 +43,9 @@ export default function LatestProjectCarousel() {
                 />
 
                 <div className=" absolute bg-black/30 inset-0 hidden group-hover:block">
-                  <div className="bg-[#004AADF2] lg:p-8 px-2 py-4 rounded-xl absolute group-hover:bottom-0 left-0 w-full flex justify-between items-center gap-4 lg:flex-row flex-col">
+                  <div
+                    className={`bg-secondary lg:p-8 px-2 py-4 rounded-xl absolute group-hover:bottom-0 left-0 w-full flex justify-between items-center gap-4 lg:flex-row flex-col`}
+                  >
                     <div className="space-y-4">
                       <div className="flex items-center lg:gap-3 gap-2">
                         <Image
@@ -76,7 +78,7 @@ export default function LatestProjectCarousel() {
                         ))}
                       </div>
                     </div>
-                    <div>
+                    <div className="lg:block hidden">
                       <Image
                         width={24}
                         height={24}

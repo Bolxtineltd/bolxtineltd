@@ -6,11 +6,11 @@ const OurServicesItem = ({
   item,
   addClassName,
   link,
-  imageStyle = "group-hover:size-[56px] size-10",
+  imageStyle = "group-hover:size-[48px] size-10",
 }: Props) => {
   const { icon, title, body } = item;
   return (
-    <div className="p-8 rounded-xl bg-dark text-white group hover:bg-primary space-y-4 border-b-8 border-x hover:border-secondary transition-all ease-in-out   animate-out duration-150">
+    <div className="p-8 rounded-xl lg:bg-dark text-white group hover:bg-secondary space-y-4 border-b-8 border-x hover:border-dark-600 transition-all ease-in-out   animate-out duration-150 bg-secondary lg:border-none border-dark-600">
       <div className={cn("flex  gap-4 flex-col", addClassName)}>
         <div className="">
           <Image
@@ -25,7 +25,7 @@ const OurServicesItem = ({
           {title}
         </h4>
       </div>
-      <p className="lg:text-xl text-base font-normal text-[#CDD0D3] leading-[33px]">
+      <p className="lg:text-xl text-base font-normal text-white/70 leading-[33px]">
         {body}
       </p>
       {link && (

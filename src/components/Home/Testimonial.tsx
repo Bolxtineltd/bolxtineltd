@@ -18,7 +18,10 @@ const Testimonial = () => {
       <div className="wrapper grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-4">
         {testimonals.map(({ name, position, content, id, image }, index) => (
           <Fade direction={index % 2 === 0 ? "up" : "right"} key={id}>
-            <div className="bg-dark group hover:bg-primary border-x border-b-4  hover:shadow-secondary hover:border-secondary rounded-xl p-3 text-white lg:space-y-6 space-y-3">
+            <div
+              className={` border-x border-b-4  hover:shadow-dark-600 hover:border-dark-600 rounded-xl p-3 text-white 
+                lg:space-y-6 space-y-3 ${index % 2 ? " bg-secondary group hover:bg-dark" : "bg-dark  group hover:bg-secondary"}`}
+            >
               <p className="text">{content}</p>
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-2">

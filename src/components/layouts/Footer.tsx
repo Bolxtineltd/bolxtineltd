@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <ContactUsForm />
       </section>
-      <section className="wrapper flex justify-between items-center py-6 lg:flex-row flex-col lg:gap-0 gap-6">
+      <section className="wrapper flex justify-between items-center py-6 lg:flex-row flex-col lg:gap-0 gap-6 relative z-30">
         <div className="lg:hidden block">
           <SocialIcons />
         </div>
