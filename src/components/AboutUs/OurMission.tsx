@@ -16,13 +16,13 @@ const lists = [
   {
     icon: "/assets/kayaking.svg",
     title: "Our Mission",
-    body: "At Bolxtine Ltd, our mission is to provide innovative technology solutions to our clients, helping them to solve complex problems and achieve their business objectives. We strive to deliver exceptional value and service by leveraging our team's expertise, creativity, and dedication",
+    body: "We build innovative and reliable software solutions with precision and purpose, adapting to evolving needs while maintaining transparency and trust. We aim to transform ideas into impactful digital products that stand the test of time.",
     id: 1,
   },
   {
     icon: "/assets/sunny.svg",
     title: "Our Vision",
-    body: "To be a leading technology firm, trusted for innovative solutions, exceptional service, and driving client success. We aim to empower businesses to thrive in a rapidly changing technological landscape, providing cutting-edge solutions that fuel growth, create value, and transform operations.",
+    body: "To be the leading force in crafting innovative and reliable software solutions, setting new standards in agility, focus, and transparency while shaping the future of digital transformation.",
     id: 2,
   },
 ];

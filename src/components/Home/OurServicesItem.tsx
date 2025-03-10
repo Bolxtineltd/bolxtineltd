@@ -10,7 +10,11 @@ const OurServicesItem = ({
 }: Props) => {
   const { icon, title, body } = item;
   return (
-    <div className="p-8 rounded-xl lg:bg-dark text-white group hover:bg-secondary space-y-4 border-b-8 border-x hover:border-dark-600 transition-all ease-in-out   animate-out duration-150 bg-secondary lg:border-none border-dark-600">
+    <div
+      className="p-8 rounded-xl lg:bg-dark text-white group hover:bg-secondary space-y-4 
+    border-b-8   transition-all ease-in-out  
+     animate-out duration-150 bg-secondary   border-x   hover:shadow-dark-600 hover:border-dark-600"
+    >
       <div className={cn("flex  gap-4 flex-col", addClassName)}>
         <div className="">
           <Image

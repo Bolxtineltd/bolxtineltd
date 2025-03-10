@@ -21,6 +21,21 @@ const OurStory = () => {
             respective fields.
           </p>
         </Fade>
+
+        <div className="space-y-3">
+          <h4 className="text !font-bold">Core Values (C.R.A.F.T.)</h4>
+          <section className="grid lg:gap-5 gap-3">
+            {values?.map(({ title, content, id }) => (
+              <div className="" key={id}>
+                <h5 className="lg:text-lg text-base font-medium text-dark flex gap-2 items-center">
+                  <span className="size-3 bg-secondary rounded-full inline-block"></span>
+                  <span>{title}</span>
+                </h5>
+                <p className="text-base mx-5 text-dark-600">{content}</p>
+              </div>
+            ))}
+          </section>
+        </div>
       </div>
       <Fade direction="up">
         <Image
@@ -36,3 +51,32 @@ const OurStory = () => {
 };
 
 export default OurStory;
+const values = [
+  {
+    title: "⁠Creativity",
+    content:
+      "Innovating and thinking outside the box to solve complex problems",
+    id: 1,
+  },
+  {
+    title: "⁠Reliability",
+    content:
+      "Delivering consistent, high-quality solutions that clients can trust.",
+    id: 2,
+  },
+  {
+    title: "Agility",
+    content: "Adapting quickly to changing needs and emerging technologies.",
+    id: 3,
+  },
+  {
+    title: "⁠Focus",
+    content: "Prioritizing efficiency and excellence in execution.",
+    id: 4,
+  },
+  {
+    title: "Transparency",
+    content: "Maintaining honesty and openness in all interactions.",
+    id: 5,
+  },
+];

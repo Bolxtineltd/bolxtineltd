@@ -20,7 +20,7 @@ const Testimonial = () => {
           <Fade direction={index % 2 === 0 ? "up" : "right"} key={id}>
             <div
               className={` border-x border-b-4  hover:shadow-dark-600 hover:border-dark-600 rounded-xl p-3 text-white 
-                lg:space-y-6 space-y-3 ${index % 2 ? " bg-secondary group hover:bg-dark" : "bg-dark  group hover:bg-secondary"}`}
+                lg:space-y-6 space-y-3 ${index % 2 ? " bg-secondary group hover:bg-dark " : "bg-dark  group hover:bg-secondary"}`}
             >
               <p className="text">{content}</p>
               <div className="flex justify-between items-center">
