@@ -30,14 +30,14 @@ export function NavBar() {
       <nav className="wrapper flex h-16 items-center justify-between mx-auto">
         <Link href={"/"}>
           <Image
-            src={"/assets/logo-new.png"}
+            src={"/assets/logo-new.PNG"}
             alt={"logo"}
             width={160}
             height={28}
             className="lg:block hidden"
           />
           <Image
-            src={"/assets/logo-new.png"}
+            src={"/assets/logo-new.PNG"}
             alt={"logo"}
             width={120}
             height={28}
