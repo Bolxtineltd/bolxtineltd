@@ -4,8 +4,9 @@ import { Bounce } from "react-awesome-reveal";
 
 const OurServiceComp = () => {
   return (
-    <section className="bg-our-services  bg-cover bg-center py-10">
-      <div className="wrapper flex gap-10 lg:flex-row flex-col-reverse">
+    <section className="bg-our-services  bg-cover bg-center py-10 relative">
+      <div className=" absolute inset-0 bg-dark-600/70 z-10"></div>
+      <div className="wrapper flex gap-10 lg:flex-row flex-col-reverse relative z-30">
         <aside className="lg:w-[428px] space-y-8  w-full grid">
           {ourservices1.map((service) => (
             <OurServicesItem key={service.id} item={service} addClassName="" />
@@ -13,8 +14,8 @@ const OurServiceComp = () => {
         </aside>
         <div className="flex-1 space-y-[3rem] flex flex-col justify-between">
           <Bounce>
-            <h1 className="title text-dark-500">
-              <span className="text-dark-100 mx-3">Our</span>
+            <h1 className="title text-white font-playfairDisplay">
+              <span className="text-primary mx-3">Our</span>
               Services
             </h1>
           </Bounce>

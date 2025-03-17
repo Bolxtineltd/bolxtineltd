@@ -26,8 +26,8 @@ export function NavBar() {
   };
 
   return (
-    <header className=" bg-white/95 shadow-sm  s md:h-[66px]  sticky top-0 left-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 ">
-      <nav className="wrapper flex h-16 items-center justify-between mx-auto">
+    <header className=" bg-white/95 shadow-sm  h-[66px]  fixed top-0  z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 ">
+      <nav className="wrapper flex h-16 items-center justify-between">
         <Link href={"/"}>
           <Image
             src={"/assets/logo-new.PNG"}
@@ -51,7 +51,7 @@ export function NavBar() {
             <li key={item.name}>
               <Link
                 href={item.path}
-                className={` text-dark py-2 px-4  text-lg rounded-md leading-[17.82px] transition-colors hover:font-bold  hover:bg-[#E5F1FF] ${active === item.path ? "bg-[#E5F1FF] font-bold  rounded-md font-spaceGrotesk" : ""}`}
+                className={` text-dark-600 py-2 px-4  text-lg rounded-md leading-[17.82px] transition-colors hover:font-bold  hover:bg-primary/30 hover:text-primary ${active === item.path ? "bg-primary/30 font-bold text-primary  rounded-md font-spaceGrotesk" : ""}`}
               >
                 {item.name}
               </Link>
@@ -90,9 +90,9 @@ export function NavBar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden overflow-hidden"
+            className="md:hidden overflow-hidden bg-white"
           >
-            <div className="wrapper border-t py-4">
+            <div className="wrapper border-t py-4  sticky top-0">
               <nav className="flex flex-col gap-4">
                 {routes.map((item, index) => (
                   <motion.div

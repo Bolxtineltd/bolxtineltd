@@ -11,17 +11,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#004AADF2",
+          DEFAULT: "#fb8b24",
         },
         secondary: {
           DEFAULT: "#DB680C",
-          100: "#fb8b24",
         },
         dark: {
           DEFAULT: "#01060E",
           100: "#BFC1C3",
           500: "#41444A",
-          600: "#36454f",
+          600: "#384550",
           700: "#faf0e6",
         },
       },
@@ -36,6 +35,7 @@ export default {
       fontFamily: {
         spaceGrotesk: ["Space Grotesk", "sans-serif"],
         goldman: ["Goldman", "sans-serif"],
+        playfairDisplay: ["Playfair Display", "sans-serif"],
       },
       animation: {
         marquee: "marquee 25s linear infinite",
